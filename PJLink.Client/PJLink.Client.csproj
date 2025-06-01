@@ -6,17 +6,20 @@
     <Nullable>enable</Nullable>
     <PackageId>PJLink.Client</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Your Name</Authors>
-    <Company>Your Company</Company>
-    <Description>A .NET client implementation of the PJLink protocol for projector control.</Description>
-    <PackageTags>pjlink;projector;control;network;tcp</PackageTags>
+    <Authors>Pat Hartl</Authors>
+    <Description>A .NET client implementation of the PJLink protocol for projector control. Supports PJLink Class 1 specification with features like power control, input selection, and device monitoring.</Description>
+    <PackageTags>pjlink;projector;control;network;tcp;automation;display;monitor</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RepositoryUrl>https://github.com/pathartl/PJLink.Client</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="logo.png" Pack="true" PackagePath="/" />
   </ItemGroup>
 
 </Project>
